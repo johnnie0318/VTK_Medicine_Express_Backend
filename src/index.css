@@ -1,0 +1,245 @@
+header {
+  background-color: #535353;
+}
+#menu {
+  padding-left: 5px;
+}
+#menu ul {
+  display: flex;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  list-style-type: none;
+}
+#menu li {
+  color: white;
+  padding: 1px 2em;
+  border-radius: 5px;
+  display: inline-block;
+  color: white;
+  font-size: 9pt;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  font-family: "Lexend Deca", sans-serif;
+  cursor: pointer;
+}
+#menu li:hover {
+  color: orange;
+}
+.selectedTabMenu {
+  background: linear-gradient(to bottom, #ffffff 0%, #c8c8c8 100%);
+  color: black !important;
+  font-weight: 700;
+}
+.tabBckg {
+  padding: 3px;
+  background-image: linear-gradient(
+    to bottom,
+    #ffffff,
+    #f3f3f3,
+    #e7e7e7,
+    #dbdbdb,
+    #cfcfcf,
+    #cbcbcb,
+    #c8c8c8,
+    #c4c4c4,
+    #c8c8c8,
+    #cccbcb,
+    #d0cecf,
+    #d4d2d2
+  );
+  border: 1px solid #d8e7fc;
+  padding-left: 5px;
+  border-top: 1px solid #535353;
+  padding-left: 0;
+}
+.tabBckgContent {
+  display: none;
+  height: 100%;
+  flex-direction: row;
+}
+.imgMenu {
+  height: 54px;
+}
+#Источники {
+  display: flex;
+}
+.tabFooterCaption {
+  font-size: 8pt;
+  border: 1px solid #9d9d9d;
+  border-radius: 6px;
+  display: inline-flex;
+  flex-direction: column;
+  margin-left: 3px;
+}
+button {
+  padding: 0;
+  background: #acacac;
+  border: 1px solid #868686;
+  color: white;
+  text-transform: capitalize;
+  border-radius: 5px;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+  margin-top: auto;
+  border-top: 0;
+}
+.imagesSectionMenu {
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+}
+.imagesContainerMenu {
+  text-align: center;
+  width: 90px;
+  padding: 3px;
+  padding-bottom: 0px;
+  margin: 0 auto;
+  /* margin-bottom: 4px; */
+}
+.searchComputerImage {
+  background-position: -1246px 0;
+}
+.searchPlusImage {
+  background-position: -1685px -6px;
+  height: 25px;
+}
+.searchImageMenu {
+  background-position: -2207px 0;
+}
+.renewImageMenu {
+  background-position: -2239px 0;
+}
+.copyIcon {
+  background-position: -2112px -58px;
+}
+.reportIcon {
+  background-position: -1316px -56px;
+}
+.calendarIcon {
+  background-position: -1356px 0;
+}
+.MagnifyingGlassIcon {
+  background-position: -371px -59px;
+}
+.arrayUpIcon {
+  background-position: -1211px 0px;
+}
+.paperIcon {
+  background-position: -1716px -52px;
+}
+.paintingIcon {
+  background-position: -530px -55px;
+}
+.iconPath {
+  background-image: url("http://demo.kometa-pacs.info/Kometa/CloudWebServer/App_Themes/WebPbCommon/images/ico.png");
+  width: 25px;
+  height: 25px;
+  display: inline-block;
+}
+.imageWrapper {
+  height: 32px;
+  background-image: url("http://demo.kometa-pacs.info/Kometa/CloudWebServer/App_Themes/WebPbCommon/images/ico.png");
+  width: 32px;
+  margin: auto;
+}
+.captionPhotoMenu {
+  margin-top: 3px;
+}
+.unRegularLongWidth {
+  width: 100px;
+}
+#addInViewerCaption {
+  margin-top: -6px;
+}
+.unRegularLongWidth:hover,
+.imagesContainerMenu:hover,
+.longTextContainer:hover {
+  cursor: pointer;
+  background-image: linear-gradient(
+    to bottom,
+    #fff0b2,
+    #fff0b1,
+    #fff0af,
+    #ffefae,
+    #ffefac,
+    #ffedaa,
+    #ffeca7,
+    #ffeaa5,
+    #ffe7a1,
+    #ffe39d,
+    #ffe09a,
+    #ffdc96
+  );
+}
+.yellowTriangleIcon {
+  background-position: -2815px 0;
+}
+.zoomImage {
+  background-position: -225px 0;
+}
+.container_inputs_menu {
+  display: flex;
+  align-items: center;
+}
+.mini_container_menu {
+  border-right: 1px solid gray;
+  padding-right: 5px;
+  margin-left: 5px;
+  width: 200px;
+}
+.mbc_editFiltCont_lpn {
+  font-size: 11px;
+  width: 101px;
+  display: inline-block;
+}
+.mbc_editFiltCont_lpn::after {
+  content: ":";
+}
+.tdFilter {
+  width: 90px;
+  height: 19px;
+  font: 10px;
+}
+.fButtons {
+  display: flex;
+  flex-direction: row;
+}
+.mbc_editFiltCont_bn_bh {
+  width: 120px;
+  text-align: center;
+  display: flex;
+}
+.sideFButtons {
+  display: flex;
+  flex-direction: column;
+  height: 50%;
+  align-items: center;
+}
+.mbc_editFiltCont_bn_bh_caption {
+  padding-top: 3px;
+  font-size: small;
+}
+.logOutImage {
+  background-position: -256px -57px;
+}
+.longTextContainer {
+  text-align: center;
+  padding: 4px;
+  padding-bottom: 0px;
+  margin: 0 auto;
+}
+.orangeBackground {
+  background: url(/App_Themes/BlackDark/images/edtButtonBackPressed.gif)
+    repeat-x center top #ffcf8b;
+}
+
+.mbc_editFiltCont_bn_bh:hover {
+  cursor: pointer;
+  background: url(/App_Themes/BlackDark/images/edtButtonBackPressed.gif)
+    repeat-x center top #ffcf8b;
+}
+
+.small-text {
+  font-size: 14px;
+}

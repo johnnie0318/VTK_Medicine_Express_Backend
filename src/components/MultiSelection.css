@@ -1,0 +1,28 @@
+#multiSelection {
+  background: white;
+  display: flex;
+  flex-direction: row;
+}
+
+#multiSelectionPicker {
+  background: url(http://lkmt.kometa-pacs.info/App_Themes/BlackDark/images/ddl.gif)
+    no-repeat;
+  width: 19px;
+  height: 19px;
+  margin-left: auto;
+}
+
+.checkboxMultiSelection {
+  margin: 6px;
+}
+
+.optionMultiSelection {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-size: 12px;
+}
+
+.optionMultiSelection:nth-child(even) {
+  background-color: #c2c7d0;
+}

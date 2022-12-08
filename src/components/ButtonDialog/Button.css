@@ -1,0 +1,12 @@
+.button-dialog {
+  background: url("http://lkmt.kometa-pacs.info/App_Themes/BlackDark/images/login/unselected.gif");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  border: 1px solid #aeaeae;
+  font-size: 12px;
+  line-height: 19px;
+  padding: 5px;
+  width: 80px;
+  margin-left: 5px;
+  margin-right: 5px;
+}

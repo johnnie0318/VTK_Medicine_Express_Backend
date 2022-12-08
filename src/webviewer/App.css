@@ -1,0 +1,1747 @@
+#header {
+  /* height: 96px; */
+  /* overflow-y: hidden; */
+  /* overflow-x: hidden; */
+  white-space: nowrap;
+  margin-right: 30px;
+  position: absolute;
+  z-index: 5;
+  transition-duration: 1.5s;
+  /* width: 100%; */
+  /* overflow: auto; */
+}
+
+.same {
+  display: inline-block;
+  text-align: center;
+}
+
+#first {
+  width: 63px;
+  height: 70px;
+  margin-left: 17px;
+  margin-top: 5px;
+  padding-top: 5px;
+  border: 1px solid #bfbfbf;
+  border-radius: 5px;
+  box-shadow: 0.5px 0.5px 0.5px 0.5px #bfbfbf;
+}
+
+#first:hover {
+  background-color: #ffd480;
+}
+
+#first .eye_logo {
+  margin-left: 0px;
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+}
+#header_texts_1 {
+  background-color: #a6a6a6;
+  height: 15px;
+  margin-top: 10px;
+  color: white;
+  font-size: 11px;
+}
+
+#second {
+  margin-top: 5px;
+  height: 70px;
+  margin-left: 10px;
+  border: 1px solid #bfbfbf;
+  border-radius: 5px;
+  box-shadow: 0.5px 0.5px 0.5px 0.5px #bfbfbf;
+}
+
+#second_table {
+  margin-top: 10px;
+}
+#second_first {
+  display: flex;
+  margin-left: 10px;
+  position: absolute;
+  top: 19px;
+}
+#second_first:hover {
+  height: 20px;
+  background-color: #ffd480;
+  cursor: pointer;
+}
+#second_first_text {
+  font-size: 11px;
+  margin-left: 10px;
+}
+
+#second_first_img {
+  width: 16px;
+  height: 16px;
+  background-image: url('http://lkmt.kometa-pacs.info/App_Themes/WebPbCommon/images/ico.png');
+  background-position: -303px -34px;
+}
+
+#second_second {
+  display: flex;
+  margin-left: 25px;
+  padding-right: 5px;
+  position: absolute;
+  top: 19px;
+}
+#second_second_text {
+  font-size: 11px;
+  margin-left: 10px;
+}
+
+#second_second:hover {
+  height: 20px;
+  background-color: #ffd480;
+  cursor: pointer;
+}
+
+#second_second_img {
+  width: 16px;
+  height: 16px;
+  background-image: url('http://lkmt.kometa-pacs.info/App_Themes/WebPbCommon/images/ico.png');
+  background-position: -325px -33px;
+}
+
+#second_three {
+  display: flex;
+  margin-left: 50px;
+  margin-right: 20px;
+  top: 19px;
+}
+#second_three_text {
+  font-size: 11px;
+  margin-left: 10px;
+}
+
+#second_three:hover {
+  margin-top: -32px;
+  height: 20px;
+  background-color: #ffd480;
+  cursor: pointer;
+}
+
+#second_three_img {
+  width: 16px;
+  height: 16px;
+  background-image: url('http://lkmt.kometa-pacs.info/App_Themes/WebPbCommon/images/ico.png');
+  background-position: -372px -33px;
+}
+
+#second_four {
+  display: flex;
+  margin-top: -10px;
+  margin-left: 10px;
+  top: 19px;
+}
+#second_four_text {
+  font-size: 11px;
+  margin-left: 10px;
+}
+
+#second_four:hover {
+  height: 15px;
+  background-color: #ffd480;
+  cursor: pointer;
+  margin-top: -21px;
+}
+
+#second_four_img {
+  width: 16px;
+  height: 16px;
+  background-image: url('http://lkmt.kometa-pacs.info/App_Themes/WebPbCommon/images/ico.png');
+  background-position: -1075px -32px;
+}
+
+#second_five {
+  display: flex;
+  margin-left: 25px;
+  margin-top: -10px;
+}
+#second_five_text {
+  font-size: 11px;
+  margin-left: 10px;
+}
+
+#second_five:hover {
+  height: 20px;
+  background-color: #ffd480;
+  cursor: pointer;
+  margin-top: -21px;
+}
+
+#second_five_img {
+  width: 16px;
+  height: 16px;
+  background-image: url('http://lkmt.kometa-pacs.info/App_Themes/WebPbCommon/images/ico.png');
+  background-position: -1095px -32px;
+}
+
+#header_texts_2 {
+  background-color: #a6a6a6;
+  height: 15px;
+  margin-top: -15px;
+  color: white;
+  font-size: 11px;
+}
+
+#three {
+  margin-top: 5px;
+  height: 70px;
+  margin-left: 8px;
+  border: 1px solid #bfbfbf;
+  border-radius: 5px;
+  box-shadow: 0.5px 0.5px 0.5px 0.5px #bfbfbf;
+}
+#three_first {
+  height: 86px;
+  width: 57px;
+  margin-left: 13px;
+}
+
+#three_first:hover {
+  background-color: #ffd480;
+  cursor: pointer;
+  height: 50px;
+  margin-top: -36px;
+}
+
+#three_first #three_first_img {
+  margin: auto;
+}
+#three_first_img {
+  height: 32px;
+  width: 32px;
+  background-image: url('http://lkmt.kometa-pacs.info/App_Themes/WebPbCommon/images/ico.png');
+  background-position: -105px -97px;
+}
+
+#three_first_txt {
+  font-size: 11px;
+}
+
+#three_second {
+  height: 86px;
+  width: 62px;
+  margin-left: 5px;
+}
+
+#three_second:hover {
+  background-color: #ffd480;
+  cursor: pointer;
+  height: 50px;
+  margin-top: -36px;
+}
+
+#three_second #three_second_img {
+  margin: auto;
+}
+#three_second_img {
+  height: 32px;
+  width: 32px;
+  background-image: url('http://lkmt.kometa-pacs.info/App_Themes/WebPbCommon/images/ico.png');
+  background-position: -70px -97px;
+}
+
+#three_second_txt {
+  font-size: 11px;
+}
+
+#three_three {
+  height: 86px;
+  width: 72px;
+  margin-left: 5px;
+}
+
+#three_three:hover {
+  background-color: #ffd480;
+  cursor: pointer;
+  height: 50px;
+  margin-top: -36px;
+}
+
+#three_three #three_three_img {
+  margin: auto;
+}
+#three_three_img {
+  height: 32px;
+  width: 32px;
+  background-image: url('http://lkmt.kometa-pacs.info/App_Themes/WebPbCommon/images/ico.png');
+  background-position: 0px -97px;
+}
+
+#three_three_txt {
+  font-size: 11px;
+}
+
+#three_four {
+  height: 86px;
+  width: 90px;
+  margin-left: 5px;
+  margin-right: 10px;
+}
+
+#three_four:hover {
+  background-color: #ffd480;
+  cursor: pointer;
+  height: 50px;
+  margin-top: -36px;
+}
+
+#three_four #three_four_img {
+  margin: auto;
+}
+#three_four_img {
+  height: 32px;
+  width: 32px;
+  background-image: url('http://lkmt.kometa-pacs.info/App_Themes/WebPbCommon/images/ico.png');
+  background-position: -35px -97px;
+}
+
+#three_four_txt {
+  font-size: 11px;
+}
+
+#header_texts_3 {
+  background-color: #a6a6a6;
+  height: 15px;
+  margin-top: -35px;
+  color: white;
+  font-size: 11px;
+}
+
+#four {
+  width: 63px;
+  height: 70px;
+  margin-left: 7px;
+  margin-top: 5px;
+  padding-top: 5px;
+  border: 1px solid #bfbfbf;
+  border-radius: 5px;
+  box-shadow: 0.5px 0.5px 0.5px 0.5px #bfbfbf;
+}
+
+#four:hover {
+  background-color: #ffd480;
+  cursor: pointer;
+}
+
+#four img {
+  margin-left: 10px;
+}
+#header_texts_4 {
+  background-color: #a6a6a6;
+  height: 15px;
+  margin-top: -16px;
+  color: white;
+  font-size: 11px;
+}
+
+#five {
+  margin-top: 5px;
+  height: 70px;
+  margin-left: 10px;
+  border: 1px solid #bfbfbf;
+  border-radius: 5px;
+  box-shadow: 0.5px 0.5px 0.5px 0.5px #bfbfbf;
+}
+
+#five_first {
+  height: 86px;
+  width: 72px;
+  margin-left: 5px;
+  background-color: linear;
+}
+
+#five_first:hover {
+  background-color: #ffd480;
+  cursor: pointer;
+  height: 50px;
+  margin-top: -36px;
+}
+
+#five_first_img {
+  margin: auto;
+  height: 32px;
+  width: 32px;
+  background-image: url('http://lkmt.kometa-pacs.info/App_Themes/WebPbCommon/images/ico.png');
+  background-position: -352px 0;
+}
+
+#five_first_txt {
+  font-size: 11px;
+  margin-top: 5px;
+}
+
+#five_second {
+  height: 86px;
+  width: 72px;
+  margin-left: 5px;
+  background-color: linear;
+}
+
+#five_second:hover {
+  background-color: #ffd480;
+  cursor: pointer;
+  height: 50px;
+  margin-top: -36px;
+}
+
+#five_second_img {
+  margin: auto;
+  height: 32px;
+  width: 32px;
+  background-image: url('http://lkmt.kometa-pacs.info/App_Themes/WebPbCommon/images/ico.png');
+  background-position: -225px 0;
+}
+
+#five_second_txt {
+  font-size: 11px;
+  margin-top: 5px;
+}
+
+#five_third {
+  height: 86px;
+  width: 72px;
+  margin-left: 5px;
+  background-color: linear;
+}
+
+#five_third:hover {
+  background-color: #ffd480;
+  cursor: pointer;
+  height: 50px;
+  margin-top: -36px;
+}
+
+#five_third_img {
+  margin: auto;
+  height: 32px;
+  width: 32px;
+  background-image: url('http://lkmt.kometa-pacs.info/App_Themes/WebPbCommon/images/ico.png');
+  background-position: -190px 0;
+}
+
+#five_third_txt {
+  font-size: 11px;
+  margin-top: 5px;
+  text-align: center;
+}
+
+#header_texts_5 {
+  background-color: #a6a6a6;
+  height: 15px;
+  margin-top: -34px;
+  color: white;
+  font-size: 11px;
+}
+
+#six {
+  margin-top: 5px;
+  height: 70px;
+  margin-left: 7px;
+  border: 1px solid #bfbfbf;
+  border-radius: 5px;
+  box-shadow: 0.5px 0.5px 0.5px 0.5px #bfbfbf;
+}
+
+#six_first {
+  height: 86px;
+  width: 44px;
+  background-color: linear;
+}
+
+#six_first:hover {
+  background-color: #ffd480;
+  cursor: pointer;
+  height: 50px;
+  margin-top: -36px;
+}
+
+#six_first_img {
+  margin: auto;
+  height: 32px;
+  width: 32px;
+  background-image: url('http://lkmt.kometa-pacs.info/App_Themes/WebPbCommon/images/ico.png');
+  background-position: -288px 0;
+}
+
+#six_first_txt {
+  font-size: 11px;
+  margin-top: 5px;
+  text-align: center;
+}
+
+#six_second {
+  height: 86px;
+  width: 44px;
+  background-color: linear;
+}
+
+#six_second:hover {
+  background-color: #ffd480;
+  cursor: pointer;
+  height: 50px;
+  margin-top: -36px;
+}
+
+#six_second_img {
+  margin: auto;
+  height: 32px;
+  width: 32px;
+  background-image: url('http://lkmt.kometa-pacs.info/App_Themes/WebPbCommon/images/ico.png');
+  background-position: -530px -55px;
+}
+
+#six_second_txt {
+  font-size: 11px;
+  margin-top: 5px;
+  text-align: center;
+}
+
+#six_third {
+  font-size: 11px;
+  margin-top: -25px;
+}
+
+#six_third:hover {
+  cursor: pointer;
+  height: 50px;
+  margin-top: -32px;
+}
+
+#six_third_img {
+  height: 32px;
+  width: 32px;
+  background-image: url('http://lkmt.kometa-pacs.info/App_Themes/WebPbCommon/images/ico.png');
+  background-position: -921px -59px;
+}
+
+#six_third_child {
+  display: flex;
+}
+#six_third_child:hover {
+  display: flex;
+  background-color: #ffd480;
+}
+#third_options {
+  width: 90px;
+  height: 17px;
+  cursor: pointer;
+}
+#third_options:hover {
+  background-color: #ffd480;
+}
+#six_third_child select {
+  height: 25px;
+  cursor: pointer;
+}
+#header_texts_6 {
+  background-color: #a6a6a6;
+  height: 15px;
+  margin-top: -34px;
+  color: white;
+  font-size: 11px;
+}
+
+#seven {
+  margin-top: 5px;
+  height: 70px;
+  margin-left: 7px;
+  border: 1px solid #bfbfbf;
+  border-radius: 5px;
+  box-shadow: 0.5px 0.5px 0.5px 0.5px #bfbfbf;
+}
+
+#seven_first {
+  height: 86px;
+  width: 44px;
+  margin-left: 5px;
+  background-color: linear;
+}
+
+#seven_first:hover {
+  background-color: #ffd480;
+  cursor: pointer;
+  height: 50px;
+  margin-top: -36px;
+}
+
+#seven_first_img {
+  margin: auto;
+  height: 32px;
+  width: 32px;
+  background-image: url('http://lkmt.kometa-pacs.info/App_Themes/WebPbCommon/images/ico.png');
+  background-position: -570px -55px;
+}
+
+#seven_first_txt {
+  font-size: 11px;
+  margin-top: 5px;
+  text-align: center;
+}
+
+#seven_second {
+  height: 86px;
+  width: 44px;
+  margin-left: 5px;
+  background-color: linear;
+}
+
+#seven_second:hover {
+  background-color: #ffd480;
+  cursor: pointer;
+  height: 50px;
+  margin-top: -36px;
+}
+
+#seven_second_img {
+  margin: auto;
+  height: 32px;
+  width: 32px;
+  background-image: url('http://lkmt.kometa-pacs.info/App_Themes/WebPbCommon/images/ico.png');
+  background-position: -610px -55px;
+}
+
+#seven_second_txt {
+  font-size: 11px;
+  margin-top: 5px;
+  text-align: center;
+}
+
+#seven_third {
+  font-size: 11px;
+  margin-top: -25px;
+  width: 70px;
+  margin-left: 20px;
+}
+
+#seven_third_img {
+  height: 32px;
+  width: 32px;
+  background-image: url('http://lkmt.kometa-pacs.info/App_Themes/WebPbCommon/images/ico.png');
+  background-position: -921px -59px;
+}
+
+#seven_third_child {
+  display: flex;
+}
+#seven_third_child select {
+  height: 20px;
+}
+#header_texts_7 {
+  background-color: #a6a6a6;
+  height: 15px;
+  margin-top: -34px;
+  color: white;
+  font-size: 11px;
+}
+
+#eight {
+  width: 63px;
+  height: 70px;
+  margin-left: 10px;
+  margin-top: 5px;
+  padding-top: 5px;
+  border: 1px solid #bfbfbf;
+  border-radius: 5px;
+  box-shadow: 0.5px 0.5px 0.5px 0.5px #bfbfbf;
+}
+
+#eight:hover {
+  background-color: #ffd480;
+}
+
+#eight_img {
+  margin: auto;
+  height: 38px;
+  width: 32px;
+  background-image: url('http://lkmt.kometa-pacs.info/App_Themes/WebPbCommon/images/ico.png');
+  background-position: -687px -53px;
+}
+#header_texts_8 {
+  background-color: #a6a6a6;
+  height: 15px;
+  margin-top: -20px;
+  color: white;
+  font-size: 11px;
+}
+
+.img_bottom_txt {
+  font-size: 11px;
+}
+
+#nine {
+  margin-top: 5px;
+  height: 70px;
+  margin-left: 5px;
+  border: 1px solid #bfbfbf;
+  border-radius: 5px;
+  box-shadow: 0.5px 0.5px 0.5px 0.5px #bfbfbf;
+}
+.check_txt {
+  font-size: 11px;
+}
+
+#nine_first {
+  display: flex;
+  /* margin-top: 15px; */
+}
+#nine_second {
+  display: flex;
+  /* margin-top: 15px; */
+}
+#nine_three {
+  display: flex;
+  /* margin-top: -10px; */
+}
+
+#header_texts_9 {
+  background-color: #a6a6a6;
+  height: 15px;
+  margin-top: -20px;
+  color: white;
+  font-size: 11px;
+}
+
+#ten {
+  width: 53px;
+  height: 70px;
+  margin-left: 5px;
+  margin-top: 5px;
+  padding-top: 5px;
+  border: 1px solid #bfbfbf;
+  border-radius: 5px;
+  box-shadow: 0.5px 0.5px 0.5px 0.5px #bfbfbf;
+}
+
+#ten:hover {
+  background-color: #ffd480;
+}
+
+#ten_img {
+  margin: auto;
+  height: 38px;
+  width: 32px;
+  background-image: url('http://lkmt.kometa-pacs.info/App_Themes/WebPbCommon/images/ico.png');
+  background-position: -490px -56px;
+}
+#header_texts_10 {
+  background-color: #a6a6a6;
+  height: 15px;
+  margin-top: -20px;
+  color: white;
+  font-size: 11px;
+}
+
+#eleven {
+  width: 53px;
+  height: 70px;
+  margin-left: 5px;
+  margin-top: 5px;
+  padding-top: 5px;
+  border: 1px solid #bfbfbf;
+  border-radius: 5px;
+  box-shadow: 0.5px 0.5px 0.5px 0.5px #bfbfbf;
+}
+
+#eleven:hover {
+  background-color: #ffd480;
+}
+
+#eleven_img {
+  margin: auto;
+  height: 38px;
+  width: 32px;
+  background-image: url('http://lkmt.kometa-pacs.info/App_Themes/WebPbCommon/images/ico.png');
+  background-position: -224px -57px;
+}
+#header_texts_11 {
+  background-color: #a6a6a6;
+  height: 15px;
+  margin-top: -20px;
+  color: white;
+  font-size: 11px;
+}
+
+#twelve {
+  margin-top: 5px;
+  height: 70px;
+  margin-left: 7px;
+  border: 1px solid #bfbfbf;
+  border-radius: 5px;
+  box-shadow: 0.5px 0.5px 0.5px 0.5px #bfbfbf;
+}
+
+#twelve_first {
+  height: 86px;
+  width: 150px;
+  background-color: linear;
+}
+#set-slab-thickness {
+  margin-top: 10px;
+}
+/*
+#twelve_first:hover {
+  background-color: #ffd480;
+  cursor: pointer;
+  height: 50px;
+  margin-bottom: 36px;
+} */
+/*
+#twelve_first_img {
+  margin: auto;
+  height: 32px;
+  width: 32px;
+  background-image: url('http://lkmt.kometa-pacs.info/App_Themes/WebPbCommon/images/ico.png');
+  background-position: -288px 0;
+} */
+
+#twelve_first_txt {
+  font-size: 11px;
+  margin-top: 5px;
+  text-align: center;
+}
+/*
+#twelve_third {
+  font-size: 11px;
+  margin-top: -25px;
+}
+
+#twelve_third:hover {
+  cursor: pointer;
+  margin-top: -25px;
+}
+
+#twelve_third_child {
+  display: flex;
+}
+#twelve_third_child:hover {
+  display: flex;
+  background-color: #ffd480;
+} */
+
+.slab-container {
+  width: 100%;
+  position: absolute;
+  display: flex;
+  z-index: 1;
+  left: 13%;
+  top: 20px;
+}
+
+.slab-container label {
+  color: white;
+}
+
+.slab-container input {
+  margin-right: 50px;
+}
+
+.slab-container button {
+  margin: 0 3px;
+}
+
+.nav-list {
+  width: 30px;
+  height: 110px;
+  cursor: pointer;
+  position: relative;
+  border-radius: 5px;
+  margin-left: 10px;
+  color: white;
+}
+.nav-list:hover {
+  text-decoration: none;
+  background-color: #323235;
+}
+
+#Navselected {
+  background-color: #000000;
+}
+.nav_txt {
+  margin: auto;
+  position: inherit;
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+  font-size: 13px;
+  vertical-align: middle;
+  top: 30%;
+  color: rgb(150, 151, 144);
+}
+#nav_item {
+  flex: 0 0 2.5% !important;
+  width: 40px !important;
+  display: inline-block;
+  background-color: #efefef;
+  height: calc(100vh - 96px);
+}
+#nav_content {
+  position: absolute;
+  width: calc(100% - 40px);
+  height: 100%;
+  display: inline-block;
+  border: 0.1px solid red;
+  background: #000000;
+  overflow: hidden;
+}
+#Layer_userimage1 {
+  height: 32px;
+  width: 32px;
+  background-image: url('http://lkmt.kometa-pacs.info/App_Themes/WebPbCommon/images/ico.png');
+  background-position: 0px 0px;
+  margin: auto;
+}
+#Layer_userimage2 {
+  height: 32px;
+  width: 32px;
+  background-image: url('http://lkmt.kometa-pacs.info/App_Themes/WebPbCommon/images/ico.png');
+  background-position: -30px 0px;
+  margin: auto;
+}
+#Layer_userimage3 {
+  height: 32px;
+  width: 32px;
+  background-image: url('http://lkmt.kometa-pacs.info/App_Themes/WebPbCommon/images/ico.png');
+  background-position: -60px 0px;
+  margin: auto;
+}
+#Layer_Rotateimage {
+  height: 32px;
+  width: 32px;
+  background-image: url('http://lkmt.kometa-pacs.info/App_Themes/WebPbCommon/images/ico.png');
+  background-position: -256px 0px;
+  margin: auto;
+}
+#five_first_img1 {
+  margin: auto;
+  height: 32px;
+  width: 32px;
+  background-image: url('http://lkmt.kometa-pacs.info/App_Themes/WebPbCommon/images/ico.png');
+  background-position: -320px 0;
+}
+#five_second_img1 {
+  margin: auto;
+  height: 32px;
+  width: 32px;
+  background-image: url('http://lkmt.kometa-pacs.info/App_Themes/WebPbCommon/images/ico.png');
+  background-position: -730px -52px;
+}
+#second_first_img1 {
+  width: 16px;
+  height: 16px;
+  background-image: url('http://lkmt.kometa-pacs.info/App_Themes/WebPbCommon/images/ico.png');
+  background-position: -1075px -32px;
+}
+#second_three_img1 {
+  width: 16px;
+  height: 16px;
+  background-image: url('http://lkmt.kometa-pacs.info/App_Themes/WebPbCommon/images/ico.png');
+  background-position: -303px -34px;
+}
+#second_four_img1 {
+  width: 16px;
+  height: 16px;
+  background-image: url('http://lkmt.kometa-pacs.info/App_Themes/WebPbCommon/images/ico.png');
+  background-position: -1095px -32px;
+}
+#second_five_img1 {
+  width: 16px;
+  height: 16px;
+  background-image: url('http://lkmt.kometa-pacs.info/App_Themes/WebPbCommon/images/ico.png');
+  background-position: -372px -33px;
+}
+#ten_img1 {
+  margin: auto;
+  height: 38px;
+  width: 32px;
+  background-image: url('http://lkmt.kometa-pacs.info/App_Themes/WebPbCommon/images/ico.png');
+  background-position: -735px 5px;
+}
+#vrmip_image {
+  margin: auto;
+  height: 32px;
+  width: 32px;
+  background-image: url('http://lkmt.kometa-pacs.info/App_Themes/WebPbCommon/images/ico.png');
+  background-position: -770px 83px;
+}
+#three_four_img1 {
+  margin: auto;
+  height: 32px;
+  width: 32px;
+  background-image: url('http://lkmt.kometa-pacs.info/App_Themes/WebPbCommon/images/ico.png');
+  background-position: -1880px -54px;
+}
+#three_three_img1 {
+  margin: auto;
+  height: 32px;
+  width: 32px;
+  background-image: url('http://lkmt.kometa-pacs.info/App_Themes/WebPbCommon/images/ico.png');
+  background-position: -1880px 0px;
+}
+#three_three_img11 {
+  margin: auto;
+  height: 32px;
+  width: 32px;
+  background-image: url('http://lkmt.kometa-pacs.info/App_Themes/WebPbCommon/images/ico.png');
+  background-position: -1910px 0px;
+}
+#three_four_img11 {
+  margin: auto;
+  height: 32px;
+  width: 32px;
+  background-image: url('http://lkmt.kometa-pacs.info/App_Themes/WebPbCommon/images/ico.png');
+  background-position: -1910px 83px;
+}
+#three_five_img11 {
+  margin: auto;
+  height: 32px;
+  width: 32px;
+  background-image: url('http://lkmt.kometa-pacs.info/App_Themes/WebPbCommon/images/ico.png');
+  background-position: -1950px 83px;
+}
+
+#DialogContainer {
+  background-color: #bfbfbf;
+  position: fixed;
+  width: 210px;
+  height: 100%;
+  top: 94px;
+  left: 40px;
+  z-index: 100;
+  opacity: 0.3;
+}
+
+.thover {
+  opacity: 1 !important;
+}
+
+#DialogContainer .rCaption {
+  height: 23px;
+  text-align: left;
+  line-height: 23px;
+  padding-left: 2px;
+  background-color: #7e7e7e;
+  color: #ffffff;
+  font-family: Segoe UI, Tahoma, Arial;
+  font-size: 8pt;
+  cursor: default;
+}
+
+#DialogContainer .studyHeaderSelected {
+  background: url(http://lkmt.kometa-pacs.info/App_Themes/BlackDark/images/zfp_tmb_hdr_selected.jpg)
+    repeat-x;
+}
+
+#DialogContainer .studyHeader {
+  color: #15428b;
+  border-top: 1px solid #537bad;
+  border-bottom: 1px solid #537bad;
+  height: 30px;
+  line-height: 15px;
+  font-size: 8pt;
+  font-family: Segoe UI, Tahoma, Arial;
+  font-weight: bold;
+  width: 100%;
+  float: left;
+  text-align: center;
+  border: 0px;
+  cursor: default;
+}
+
+#DialogContainer .studyHeaderSelected .minus {
+  background: url(http://lkmt.kometa-pacs.info/App_Themes/BlackDark/images/minus_selected.jpg)
+    no-repeat;
+  width: 16px;
+  height: 16px;
+  float: left;
+  margin-top: 8px;
+  margin-left: 5px;
+}
+
+#DialogContainer .item {
+  margin: 5px;
+  float: left;
+}
+
+#DialogContainer .draggable {
+  z-index: 100;
+}
+
+#DialogContainer .item .btnPressed {
+  background: url(http://lkmt.kometa-pacs.info/App_Themes/BlackDark/images/edtButtonBackPressed.gif)
+    repeat-x center top #ffcf8b;
+  color: #000000;
+}
+
+#DialogContainer .item .zfpThumbnail {
+  min-width: 80px;
+  padding-top: 5px;
+  cursor: pointer;
+}
+
+#DialogContainer .item .imgListItem {
+  margin: 2px;
+  width: 100%;
+  text-align: center;
+  font-size: 12px;
+  font-family: Arial;
+  font-weight: bold;
+}
+
+.imgListItem img {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 95px;
+}
+
+.imgListItem .imgListCaptionDescr {
+  color: #cccccc;
+}
+
+#intro_item {
+  height: 33px;
+  background-color: #ffd480;
+  text-align: center;
+  border: 2px solid #5c86ce;
+}
+.goodfont {
+  font-size: 11px;
+  font-family: initial;
+  display: block;
+}
+#intro_box {
+  width: 100px;
+  height: 100px;
+  margin-left: 20px;
+  margin-top: 20px;
+  display: inline-block;
+  border: 10px solid #ffd480;
+}
+#content_container {
+  margin-left: 20px;
+  width: 90%;
+  height: 100%;
+}
+#content1 {
+  margin-top: 96px;
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  height: calc(100vh - 96px);
+}
+#layer_1 {
+  width: 70%;
+  top: 0;
+  left: 0;
+  height: 100%;
+  border: 0.1px solid red;
+  position: absolute;
+  overflow: hidden;
+}
+#layer_2 {
+  position: absolute;
+  width: 30%;
+  height: 50%;
+  top: 0;
+  right: 0;
+  border: 0.1px solid red;
+  overflow: hidden;
+}
+#layer_3 {
+  position: absolute;
+  width: 30%;
+  height: 50%;
+  right: 0;
+  bottom: 0;
+  border: 0.1px solid red;
+  overflow: hidden;
+}
+#threeD_1 {
+  width: 70%;
+  height: 100vh;
+  border: 0.1px solid red;
+  display: inline-block;
+}
+#threeD_2 {
+  position: absolute;
+  width: 30%;
+  height: 33.333vh;
+  border: 0.1px solid red;
+  display: inline-block;
+}
+#threeD_3 {
+  width: 30%;
+  height: 33.333vh;
+  border: 0.1px solid red;
+  display: inline-block;
+}
+#threeD_4 {
+  width: 30%;
+  height: 33.333vh;
+  border: 0.1px solid red;
+  display: inline-block;
+}
+#stomat_1 {
+  width: 30%;
+  height: 45vh;
+  border: 0.1px solid red;
+  display: inline-block;
+}
+#stomat_2 {
+  width: 70%;
+  height: 45vh;
+  border: 0.1px solid red;
+  display: inline-block;
+}
+#stomat_3 {
+  position: absolute;
+  width: 12.5%;
+  height: 22.5vh;
+  border: 0.1px solid red;
+  display: inline-block;
+}
+#stomat_4 {
+  width: 12.5%;
+  height: 22.5vh;
+  border: 0.1px solid red;
+  display: inline-block;
+}
+#stomat_5 {
+  width: 20%;
+  height: 45vh;
+  border: 0.1px solid red;
+  display: inline-block;
+}
+#left_arrow {
+  position: absolute;
+  width: 30px;
+  height: 80px;
+  z-index: 6;
+  cursor: pointer;
+}
+#right_arrow {
+  position: absolute;
+  width: 30px;
+  height: 78px;
+  right: 0px;
+  z-index: 6;
+  cursor: pointer;
+}
+
+#eight_img12 {
+  margin: auto;
+  height: 38px;
+  width: 32px;
+  background-image: url('http://lkmt.kometa-pacs.info/App_Themes/WebPbCommon/images/ico.png');
+  background-position: -288px 4px;
+}
+
+#small_box {
+  position: absolute;
+  left: 10px;
+  top: 50px;
+  width: 15px;
+  height: 15px;
+  background-color: #eaf1c2;
+  border: 1px solid #5c86ce;
+  text-align: center;
+  vertical-align: middle;
+}
+
+#droplist1 {
+  background-color: aliceblue;
+  position: absolute;
+  top: 75px;
+  left: 90px;
+  width: 150px;
+  height: 80px;
+  z-index: 100;
+}
+
+#droplist2 {
+  background-color: aliceblue;
+  position: absolute;
+  top: 75px;
+  left: 175px;
+  width: 150px;
+  height: 50px;
+  z-index: 100;
+}
+
+#droplist3 {
+  background-color: rgb(115, 134, 153);
+  position: absolute;
+  top: 40px;
+  left: 185px;
+  width: 105px;
+  height: 70px;
+  z-index: 101;
+}
+
+#droplist_item1 {
+  text-align: center;
+  cursor: pointer;
+}
+
+#droplist_item3 {
+  cursor: pointer;
+}
+
+#list_image31 {
+  display: inline-block;
+  margin-left: 3px;
+  margin-right: 10px;
+  margin-top: 5px;
+  height: 12px;
+  width: 20px;
+  background-image: url('http://lkmt.kometa-pacs.info/App_Themes/WebPbCommon/images/ico.png');
+  background-position: -345px -37px;
+}
+
+#list_image32 {
+  display: inline-block;
+  margin-left: 3px;
+  margin-right: 10px;
+  margin-top: 5px;
+  height: 12px;
+  width: 20px;
+  background-image: url('http://lkmt.kometa-pacs.info/App_Themes/WebPbCommon/images/ico.png');
+  background-position: -322px -37px;
+}
+
+#list_image33 {
+  display: inline-block;
+  margin-left: 3px;
+  margin-right: 10px;
+  margin-top: 5px;
+  height: 12px;
+  width: 20px;
+  background-image: url('http://lkmt.kometa-pacs.info/App_Themes/WebPbCommon/images/ico.png');
+  background-position: -345px -37px;
+}
+
+#droplist_item1:hover {
+  z-index: 100;
+  background-color: #ffd480;
+}
+
+#droplist_item3:hover {
+  z-index: 100;
+  background-color: #ffd480;
+}
+#droplist_item2 {
+  text-align: center;
+  cursor: pointer;
+}
+#droplist_item2:hover {
+  z-index: 100;
+  background-color: #ffd480;
+}
+#list_scroll {
+  margin-left: 10px;
+  position: relative;
+  display: inline-block;
+  width: 100px;
+  height: 68px;
+  border: 1px solid #bfbfbf;
+  border-radius: 5px;
+  box-shadow: 0.5px 0.5px 0.5px 0.5px #bfbfbf;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+#list_scroll1 {
+  margin-left: 10px;
+  position: relative;
+  display: inline-block;
+  width: 100px;
+  height: 68px;
+  border: 1px solid #bfbfbf;
+  border-radius: 5px;
+  box-shadow: 0.5px 0.5px 0.5px 0.5px #bfbfbf;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+#rel_image {
+  margin: auto;
+  height: 38px;
+  width: 32px;
+  background-image: url('http://lkmt.kometa-pacs.info/App_Themes/WebPbCommon/images/ico.png');
+  background-position: -730px -52px;
+}
+#list_scrollItem {
+  cursor: pointer;
+}
+#list_scrollItem:hover {
+  cursor: pointer;
+  background-color: #ffd480;
+}
+
+#select_tag {
+  width: 60px;
+}
+
+.dicom-info {
+  color: #f9f59f;
+  font-size: 12px;
+  font-family: Segoe UI, Tahoma, Arial;
+  font-weight: bold;
+}
+
+.dicom-info {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+
+.dicom-info .tHolder .left {
+  margin-left: 3px;
+  text-align: left;
+  cursor: default;
+}
+
+.dicom-info .tHolder .right {
+  margin-right: 3px;
+  text-align: right;
+  cursor: default;
+}
+
+.dicom-info .mHolder {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+}
+
+.dicom-info .bHolder {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+.dicom-info .bHolder .left {
+  margin-left: 3px;
+  text-align: left;
+  cursor: default;
+}
+
+.bOrient {
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  text-align: center;
+}
+
+.dicom-info .bHolder .right {
+  margin-right: 3px;
+  text-align: right;
+  cursor: default;
+}
+
+#stHover0 {
+  position: absolute;
+  bottom: 0px;
+  height: 30px;
+  width: 100%;
+  background: transparent
+    url(http://lkmt.kometa-pacs.info/App_Themes/BlackDark/images/cineBckg.png);
+  cursor: default;
+  z-index: 1;
+}
+
+#stHover0 .playItem {
+  vertical-align: middle;
+  height: 30px;
+  line-height: 30px;
+  padding-left: 2px;
+  padding-right: 2px;
+}
+
+#stHover0 .startImgBtn {
+  width: 16px;
+  height: 16px;
+  cursor: pointer;
+  background: url(http://lkmt.kometa-pacs.info/App_Themes/WebPbCommon/images/ico.png)
+    no-repeat;
+  background-position: -1178px -34px;
+}
+
+#stHover0 .prevImgBtn {
+  width: 16px;
+  height: 16px;
+  cursor: pointer;
+  background: url(http://lkmt.kometa-pacs.info/App_Themes/WebPbCommon/images/ico.png)
+    no-repeat;
+  background-position: -1135px -33px;
+}
+
+#stHover0 .playBtn {
+  width: 16px;
+  height: 16px;
+  cursor: pointer;
+  background: url(http://lkmt.kometa-pacs.info/App_Themes/WebPbCommon/images/ico.png)
+    no-repeat;
+  background-position: -579px -34px;
+}
+
+#stHover0 .nextImgBtn {
+  width: 16px;
+  height: 16px;
+  cursor: pointer;
+  background: url(http://lkmt.kometa-pacs.info/App_Themes/WebPbCommon/images/ico.png)
+    no-repeat;
+  background-position: -1113px -33px;
+}
+
+#stHover0 .endImgBtn {
+  width: 16px;
+  height: 16px;
+  cursor: pointer;
+  background: url(http://lkmt.kometa-pacs.info/App_Themes/WebPbCommon/images/ico.png)
+    no-repeat;
+  background-position: -1157px -33px;
+}
+
+#stHover0 .imgNumber {
+  font-family: Segoe Condensed UI, Tahoma, Arial;
+  font-size: 10px;
+  color: #ffffff;
+  text-align: center;
+  width: 30px;
+  line-height: 30px;
+}
+
+#stHover0 .decreaseBtn {
+  width: 18px;
+  height: 18px;
+  cursor: pointer;
+  background: url(http://lkmt.kometa-pacs.info/App_Themes/WebPbCommon/images/ico.png)
+    no-repeat;
+  background-position: -602px -33px;
+}
+
+#stHover0 .sliderImg {
+  position: relative;
+  background: url(http://lkmt.kometa-pacs.info/App_Themes/BlackDark/images/sl_track.png)
+    repeat-x;
+  width: 100%;
+  height: 20px;
+  color: #c0c0c0;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
+  font-size: 1.1em;
+  cursor: default;
+}
+
+#stHover0 .sliderImg .sliderHandle {
+  color: #9199a4;
+  background: url(http://lkmt.kometa-pacs.info/App_Themes/WebPbCommon/images/ico.png)
+    no-repeat;
+  background-position: -738px -33px;
+  top: -0.3em;
+  margin-left: -0.3em;
+  position: absolute;
+  z-index: 2;
+  margin-top: 6px;
+  height: 15px;
+  width: 11px;
+  cursor: default;
+  border: 0px;
+  font-weight: bold;
+}
+
+#stHover0 .increaseBtn {
+  width: 18px;
+  height: 18px;
+  cursor: pointer;
+  background: url(http://lkmt.kometa-pacs.info/App_Themes/WebPbCommon/images/ico.png)
+    no-repeat;
+  background-position: -671px -33px;
+}
+
+.Rect32 {
+  width: 32px;
+  height: 32px;
+}
+
+.windows {
+  background: url(http://lkmt.kometa-pacs.info/App_Themes/WebPbCommon/images/ico.png)
+    no-repeat;
+  background-position: -450px -55px;
+  float: left;
+  cursor: pointer;
+  border: none;
+}
+
+.container-photo {
+  height: 300px;
+  display: 'flex';
+  flex-direction: 'column';
+  align-items: 'center';
+}
+
+#container-slider {
+  position: absolute;
+  right: 50%;
+  left: 50%;
+  bottom: 10%;
+  width: 200px;
+}
+
+#photo {
+  width: 613px;
+  height: 613px;
+  position: absolute;
+  left: 2.5px;
+  top: -31px;
+  right: 0;
+  left: 0;
+  -webkit-user-drag: none;
+  -webkit-user-select: none;
+}
+
+#layer2-photo,
+#layer2-photo,
+#layer3-photo {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
+.layer_1-container-photo,
+.layer_2-container-photo,
+.layer_3-container-photo {
+  width: 100%;
+  height: 100%;
+}
+
+.layer_2-container-photo img,
+.layer_3-container-photo img {
+  width: 100%;
+  height: 100%;
+}
+
+.layer_1-container-photo img {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
+.konvajs-content {
+  z-index: 8;
+}
+
+.cornerstone-container {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  overflow-x: hidden;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 50% 50%;
+}
+
+.mpr-item {
+  border: 2px solid red;
+}
+
+.photo-item {
+  width: 100%;
+  height: 100%;
+}
+
+.cornerstone-container {
+  display: flex;
+  grid-template-columns: none !important;
+  grid-template-rows: none !important;
+}
+
+.mpr-list {
+  width: 50%;
+  height: 100%;
+}
+
+#mpr-list-left .cornerstone-element {
+  position: absolute;
+  width: 50%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+
+#mpr-list-right {
+  display: flex;
+  flex-direction: column;
+}
+
+#mpr-list-right .cornerstone-element {
+  height: 50%;
+}
+
+#mpr-list-right .cornerstone-element:nth-child(1) {
+  position: absolute;
+  width: 50%;
+  top: 0;
+  right: 0;
+}
+
+#mpr-list-right .cornerstone-element:nth-child(2) {
+  position: absolute;
+  width: 50%;
+  bottom: 0;
+  right: 0;
+}
+
+#axial-target,
+#coronal-target,
+#sagittal-target {
+  height: 100%;
+}
+
+.ViewportOverlay {
+  color: #f9f59f;
+  font-size: 12px;
+}
+
+.overlay-element {
+  position: absolute;
+  font-weight: 400;
+  text-shadow: 1px 1px #000;
+  pointer-events: none;
+  user-select: none;
+  display: block;
+}
+
+.viewport-ruler {
+  top: 0;
+  left: 0;
+}
+
+.top-left {
+  top: 0px;
+  left: 3px;
+}
+
+.top-right {
+  top: 0px;
+  right: 3px;
+  text-align: right;
+}
+
+.bottom-left {
+  bottom: 0px;
+  left: 3px;
+}
+
+.bottom-right {
+  bottom: 0px;
+  right: 3px;
+  text-align: right;
+}

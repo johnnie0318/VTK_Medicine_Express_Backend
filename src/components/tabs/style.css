@@ -1,0 +1,69 @@
+.selectedTab,
+.offTab {
+  display: flex;
+  cursor: pointer;
+}
+
+.selectedTab .corner {
+  width: 23px;
+  height: 20px;
+  background: url(http://lkmt.kometa-pacs.info/App_Themes/BlackDark/images/mainTabs/corner.png);
+}
+
+.selectedTab .center {
+  background: url(http://lkmt.kometa-pacs.info/App_Themes/BlackDark/images/mainTabs/center.png)
+    repeat-x;
+  padding: 4px 1em;
+  text-decoration: none;
+  font-size: 9pt;
+  line-height: 13px;
+  vertical-align: middle;
+}
+
+.selectedTab .right {
+  background: url(http://lkmt.kometa-pacs.info/App_Themes/BlackDark/images/mainTabs/right.png);
+  width: 3px;
+  height: 20px;
+}
+
+.offTab .corner {
+  width: 23px;
+  height: 20px;
+  margin-right: -2px;
+  background: url(http://lkmt.kometa-pacs.info/App_Themes/BlackDark/images/mainTabs/cornerNotActive.png);
+}
+
+.offTab .center {
+  background: url(http://lkmt.kometa-pacs.info/App_Themes/BlackDark/images/mainTabs/centerNotActive.png)
+    repeat-x;
+  padding: 4px 1em;
+  text-decoration: none;
+  font-size: 9pt;
+  line-height: 13px;
+  vertical-align: middle;
+}
+
+.offTab .right {
+  background: url(http://lkmt.kometa-pacs.info/App_Themes/BlackDark/images/mainTabs/rightNotActive.png);
+  width: 3px;
+  height: 20px;
+}
+
+.moveIndicatorButton {
+  display: flex;
+  margin-left: 15px;
+  align-items: center;
+  color: white;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.moveIndicatorButton img {
+  margin-right: 5px;
+}
+
+.titleStudyMarked {
+  color: #87ff94;
+  padding-left: 7px;
+}
