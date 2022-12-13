@@ -7,6 +7,9 @@
 
 This repo is for maintaining the medical assets with the VTK tech. Built backend with Express in MERN stack
 
+https://demo.kometa-pacs.info/login <br/>
+https://drive.google.com/file/d/1fU-PAN9S0SebAZ8pDz7kxNirpZ0VsM-U/view?usp=sharing
+
 ## Install
 
 This project consumes `vtk.js` as an ES6 dependency. [If you're unsure of how to consume `vtk.js` as an ES6 dependency, please check out Kitware's guide.](https://kitware.github.io/vtk-js/docs/intro_vtk_as_es6_dependency.html#Webpack-config)
